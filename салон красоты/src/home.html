@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html',{
+"title": "Main"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/header.html',{})
+		<main class="page">
+			<!-- //======================================================================================================================================================== -->
+			<section class="section__main main">
+				<div class="main__container">
+					<div class="main__wrapper">
+						<div class="main__title-wrapper">
+							<h1 class="main__title">
+								Салон красоты «Delote-Beauty» на Крестовском
+							</h1>
+						</div>
+						<a class="main__scroll" href="#specialization">Прокрутите вниз</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="specialization" id="specialization">
+				<div class="specialization__container">
+					<div class="specialization__top">
+						<p class="specialization__top-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In arcu nibh vitae amet. Ipsum, pharetra donec ornare velit. Id at quisque accumsan risus ac ipsum ut. Sit elit, facilisi proin non malesuada sociis tristique. Viverra augue lorem ut quisque quam tortor, malesuada iaculis. 
+						</p>
+						<p class="specialization__top-text">
+							Et elementum at nulla venenatis, faucibus integer. Auctor neque eros, viverra rutrum. Fames ultrices condimentum tortor nec penatibus. Velit imperdiet sapien fringilla vestibulum sit fames.
+						</p>
+					</div>
+					<ul class="specialization__list">
+						<li class="specialization__items">
+							<div class="specialization__img-wrapper">
+								<img class="specialization__img" src="@img/specialization-1.png" alt="">
+							</div>
+							<h3 class="specialization__title">Парикмахерские услуги</h3>
+						</li>
+						<li class="specialization__items">
+							<div class="specialization__img-wrapper">
+								<img class="specialization__img" src="@img/specialization-2.png" alt="">
+							</div>
+							<h3 class="specialization__title">Маникюр</h3>
+						</li>
+						<li class="specialization__items">
+							<div class="specialization__img-wrapper">
+								<img class="specialization__img" src="@img/specialization-3.png" alt="">
+							</div>
+							<h3 class="specialization__title">Педикюр</h3>
+						</li>
+						<li class="specialization__items">
+							<div class="specialization__img-wrapper">
+								<img class="specialization__img" src="@img/specialization-4.png" alt="">
+							</div>
+							<h3 class="specialization__title">Косметология</h3>
+						</li>
+						<li class="specialization__items">
+							<div class="specialization__img-wrapper">
+								<img class="specialization__img" src="@img/specialization-5.png" alt="">
+							</div>
+							<h3 class="specialization__title">Эстетист по телу</h3>
+						</li>
+						<li class="specialization__items">
+							<div class="specialization__img-wrapper">
+								<img class="specialization__img" src="@img/specialization-6.png" alt="">
+							</div>
+							<h3 class="specialization__title">Визаж</h3>
+						</li>
+					</ul>
+					<ul class="specialization__partners specialization-partners">
+						<li class="specialization-partners__items">
+							<img class="specialization-partners__img" src="@img/partners-1.svg" alt="">
+						</li>
+						<li class="specialization-partners__items">
+							<img class="specialization-partners__img" src="@img/partners-2.svg" alt="">
+						</li>
+						<li class="specialization-partners__items">
+							<img class="specialization-partners__img" src="@img/partners-3.svg" alt="">
+						</li>
+						<li class="specialization-partners__items">
+							<img class="specialization-partners__img" src="@img/partners-4.svg" alt="">
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- //======================================================================================================================================================== -->
+		</main>
+		@@include('html/footer.html',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
